@@ -1,0 +1,16 @@
+{
+  "references": [
+    {
+      "title": "BESONDERE ORTE Berlin",
+      "logo": "https://raw.githubusercontent.com/moredms/moredms-com/master/assets/img/bo_logo.jpg",
+      "description": "„Der Support ist großartig: freundlich und schnell. Unsere Belange werden ernst genommen und Frau Cotten, die wir hier gerne dankend erwähnen möchten, ist jederzeit für uns da und arbeitet mit uns gemeinsam am Feintuning der EVIS-Implementierung!“ ",
+      "src": "http://lorempixel.com/output/abstract-q-c-1920-1080-2.jpg"
+    },
+    {
+      "title": "2nd fkn test",
+      "logo": "https://raw.githubusercontent.com/moredms/moredms-com/master/assets/img/bo_logo.jpg",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et ",
+      "src": "http://lorempixel.com/output/abstract-q-c-1920-1080-1.jpg"
+    }
+  ]
+}

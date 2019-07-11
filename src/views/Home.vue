@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Carousel />
+    <!-- <Carousel /> -->
+
+    <ParallaxWSloagan />
 
     <div style="max-width: 1690px; margin: 0 auto; width: 100%;">
       <h1 class="primary--text display-2 text-xs-center mt-4 mb-4">Dienstleistungen</h1>
@@ -9,7 +11,9 @@
 
     <Teasers />
 
-    <Parallax />
+    <!-- <Carousel /> -->
+
+    <References />
 
     <News />
     
@@ -17,17 +21,28 @@
 </template>
 
 <script>
-import Carousel from '../components/Carousel'
+import ParallaxWSloagan from '../components/ParallaxWSloagan'
+// import Carousel from '../components/Carousel'
 import Teasers from '../components/Teasers'
-import Parallax from '../components/Parallax'
+// import Parallax from '../components/Parallax'
+import References from '../components/References'
 import News from '../components/News'
 
 export default {
   components: {
-    Carousel,
+    ParallaxWSloagan,
+    // Carousel,
     Teasers,
-    Parallax,
+    // Parallax,
+    References,
     News
   },
+  mounted () {
+    this.$vuetify.goTo(0, { 
+      duration: 300,
+      offset: 0,
+      easing: 'easeInCubic'
+    })
+  }
 };
 </script>

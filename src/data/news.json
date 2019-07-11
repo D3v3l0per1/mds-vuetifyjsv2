@@ -1,0 +1,18 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "Success Story Konzerthaus Berlin",
+      "image": "banner_wien.jpg",
+      "date": "2019-02-12",
+      "description": "Seit 2014 ist im Konzerthaus Berlin evis im Einsatz. Inzwischen arbeiten 60 Mitarbeiterinnen und Mitarbeiter im System – Zeit für ein Gespräch mit der Projektleiterin Anna Saß über die damaligen Überlegungen, die Einführungsphase und die bisherigen Erfahrungen."
+    },
+    {
+      "id": "2",
+      "title": "Success Story Konzerthaus Hamburg",
+      "image": "banner_wien.jpg",
+      "date": "2019-02-14",
+      "description": "Seit 2014 ist im Konzerthaus Berlin evis im Einsatz. Inzwischen arbeiten 60 Mitarbeiterinnen und Mitarbeiter im System – Zeit für ein Gespräch mit der Projektleiterin Anna Saß über die damaligen Überlegungen, die Einführungsphase und die bisherigen Erfahrungen."
+    }
+  ]
+}

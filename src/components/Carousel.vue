@@ -1,13 +1,17 @@
 <template>
-  <v-carousel height="700" hide-delimiter-background show-arrows-on-hover cycle>
-    <v-carousel-item v-for="item in items" :key="item.title" :src="item.src">
-      <!-- <v-layout
+  <v-carousel hide-delimiter-background show-arrows-on-hover cycle>
+
+    <v-carousel-item v-for="item in items" :key="item.title">
+      <v-layout
         align-center
         fill-height
-        justify-start
+        justify-center
       >
-        <div class="display-3">Slide {{ i + 1 }}</div>
-      </v-layout> -->
+        <v-flex xs6 text-xs-center>
+          <h1>lol</h1>
+          
+        </v-flex>
+      </v-layout>
     </v-carousel-item>
   </v-carousel>
 </template>
@@ -19,11 +23,13 @@ export default {
       items: [
         {
           title: 'This is a test',
+          logo: '',
           description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
           src: 'http://lorempixel.com/output/abstract-q-c-1920-1080-2.jpg'
         },
         {
           title: '2nd fkn test',
+          logo: '@/assets/logos/bo_logo.jpg',
           description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
           src: 'http://lorempixel.com/output/abstract-q-c-1920-1080-1.jpg'
         }
@@ -32,3 +38,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .static-carousel-content {
+    width: 100%;
+    position: fixed;
+  }
+</style>

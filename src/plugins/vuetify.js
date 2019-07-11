@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
-
-import colors from 'vuetify/es5/util/colors'
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.use(Vuetify);
 
@@ -12,7 +11,7 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: colors.deepOrange.base
+        primary: '#ec6808'
       }
     }
   }

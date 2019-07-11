@@ -1,0 +1,82 @@
+{
+  "about": {
+    "about_us": {
+      "title": "Über uns",
+      "text": "Mit unseren Softwarepaketen evis (Eventmanagement-InformationsSystem) und ekus sind wir auf integrierte Management-Lösungen spezialisiert. \n \n In unserer Arbeit bedienen wir in der Praxis erprobter Methoden, Verfahren und Technologien, um für unsere Höchstmaß an Langlebigkeit und Investitionssicherheit zu gewährleisten. \n \n Organisationsberatung, Software-Entwicklung, Server-Hosting und an den Workflows der Kunden orientierte Implementierung sind für uns gleichberechtigte Parameter für erfolgreiche Projekte."
+    },
+    "philosophy": {
+      "title": "Unsere Philosophie",
+      "text": "Unser Ziel ist es mit unseren Lösungen Ihre Mitarbeiter von Dingen zu befreien und Ihre gesite und emotionale Energie dort zum Einsatz zu bringen, wo Sie als Mensch gefragt sind: \n \n Beim kreatieven Knzipieren von Veranstaltungspackages für Ihre Kunden, beim Austüfteln von künstlerischen Projekten, beim Betreuen Ihrer Besucher und beim Entwicken von Ideen. Verschwenden Sie keine Zeit mehr für die Mehrfacheingabe von Daten, das Update von zig Excel-Sheets und hunderten Word-Dokumenten oder das manuelle Aufbereiten von Listen und Reports. Überlassen Sie diese Tätigkeit unserer Software und widmen Sie sich wieder dem Kerngeschäft Ihres Betriebes. Warum nicht den Software Kern auch für den Veranstaltungsbereich nutzen? Die Grundidee von EVIS ist geboren. Damals hieß die Software noch ELMIS => Eier Lengende Milch Sau \n\n Aus dieser Zusammenarbeit entstand die Idee More Dms zu gründen. More Dms baut sich zusammen aus den Nachnamen von Moser und Repper und es bedeutet selbstverständlich noch mehr... \n\n Im Jahr 2008 ging die Firma in den start \n Mit sitz in Wien als Kulturhauptstadt Österreichs und Kufstein Im schönsten Bundesland Österreich, TIROL."
+    },
+    "partners": {
+      "main":
+        {
+          "web": "https://www.acp.at/",
+          "name": "ACP",     
+          "image": "https://d3r623tes721q0.cloudfront.net/CcBU5Bmj72N4qFT6e297ce8b1eede223606326101e71600ea6401ca0/acp-logo-2015-randlos_profile.jpg",
+          "where": "Unser Partner im Bereich Serverhosting und SaaS",
+          "text": "ACP ist eine der führenden IT-Provider in Deutschland und Österreich für Unternehmen, Behörden und Organisationen jeder Größe."
+        }, 
+      "others": [
+        {
+          "web": "https://www.m-pulso.com/",
+          "name": "M-Pulso",                       
+          "image": "https://www.m-pulso.com/wp-content/uploads/2015/11/mp_logo_blau.png",
+          "where": "Unser Partner für Apps",
+          "text": "M-Pulso entwickelt zusammen mit more dimensions Apps für mobile Endgeräte welche direkt mit evis Kommunizieren."
+        },
+        {
+          "web": "https://www.forque.nl/",
+          "name": "Forque",
+          "image": "https://forque.nl/wp-content/uploads/2018/11/logo-forque-v2.jpg",
+          "where": "Unser Partner in den Niederlanden",
+          "text": "Die Forque Advisory Group ist unser Partner für sämtliche Projekte in den Niederlanden. Mit kombinierter Expertise aus Organisationsberatung, Prozessoptimierung, Finanzierung und IT kümmern sich die Consultants von Forque um die erfolgreiche und nachhaltige Implementierung unserer Produkte in Holland."
+        }
+      ]
+    },
+    "bosses": [
+      {
+        "id": "member1",
+        "name": "Heinz Repper",
+        "picture": "https://via.placeholder.com/200x200",
+        "position": "Geschäftsführender Gesesellschafter",
+        "story": "1996-2008 Technischer Direktor und Vorstand des Wiener Konzerthauses, u.a. Projektleitung für die Generalsanierung, Neuentwicklung einer Veranstaltungs-Management-Software und strategische Projekte, als Consultant in strategischen, organisatorischen und technischen Fragen u.a. für die Philharmonie Luxemburg, Elbphilharmonie und Laeizshalle Hamburg sowie Wiener Stadthalle."
+      },
+      {
+        "id": "member2",
+        "name": "Dipl. Ing. (FH) Thomas Moser",
+        "picture": "https://via.placeholder.com/200x200",
+        "position": "Geschäftsführender Gesesellschafter",
+        "story": "Studium Facility Management an der Fachhochschule Kufstein. Erfolgreiche Realisierung zahlreicher FM-Software-Projekte mit unterschiedlichsten Individuallösungen (u.a. Hilti, Fraunhofer, Giesecke & Devrient, Ziegler’sche Anstalten). 2003 komplette Neuentwicklung einer integrierten Veranstaltungsmanagement-Lösung für das Wiener Konzerthaus, in Folge weitere Implementierungen (u.a. Tonhalle Düsseldorf, Wiener Symphoniker, Jeunesse), weitere Projekte als Software-Entwicklung und Unternehmensberater mit dem Mozarteumorchester Salzburg, der Philharmonie Luxemburg und dem Gewandhaus Leipzig)."
+      }
+    ],
+    "teams": [
+      {
+        "id": "member1",
+        "name": "Max Mustermann",
+        "picture": "https://via.placeholder.com/200x200",
+        "position": "CEO & Projectmanager"
+      },
+      {
+        "id": "member2",
+        "name": "Maxima Wunderland",
+        "picture": "https://via.placeholder.com/200x200",
+        "position": "Leitung Softwareentwicklung"
+      },
+      {
+        "id": "member3",
+        "name": "Anton Racuh",
+        "picture": "https://via.placeholder.com/200x200",
+        "position": "Softwareentwicklung"
+      }
+    ],
+    "story": {
+      "title": "Gründergeschichte",
+      "text": "2007 suchte Heinz Repper für das Wienerkonzerthaus eine Software für den Bereich Facillity Management. Dadurch lerne er Thomas Moser kennen. \n Druch die Präsentation der Facillity Management Software kamen beide auf eine Blitzidee: \n\n Warum nicht den Software Kern auch für den Veranstaltungsbereich nutzen? Die Grundidee von EVIS ist geboren. Damals hieß die Software noch ELMIS => Eier Lengende Milch Sau \n\n Aus dieser Zusammenarbeit entstand die Idee More Dms zu gründen. More Dms baut sich zusammen aus den Nachnamen von Moser und Repper und es bedeutet selbstverständlich noch mehr... \n\n Im Jahr 2008 ging die Firma in den start \n Mit sitz in Wien als Kulturhauptstadt Österreichs und Kufstein Im schönsten Bundesland Österreich, TIROL."
+    },
+    "technical": {
+      "title": "Technologie",
+      "text": "In der Programmierung aller Softwarekomponenten wird auf den Softwareentwicklungskern unseres Partners Firma link(https://www.pit.de/, \"pit-cup Gmbh\" ) (Heidlberg) gesetzt, da dieser sehr ausgereift ist, eine enorm hohe Entwicklungsgeschwindigkeit und eine hohe Flexibilität bietet. Der Software-Kern von pit bildet die ideale Basis für unsere Anwendungssoftware und ermöglicht es uns, ausschließlich im Anwenderbereich zu arbeiten, ohne in die zugrunde liegenden fundamentalen Software-Prozesse eingreifen zu müssen. Als Kunde können Sie dadurch auf eine stabile und mächtige Software-Basis vertrauen, ohne aber bei individuellen Wünschen auf mehrmonatige oder gar mehrjährige Release-Zyklen warten zu müssen. \n\n Die zugrunde liegende Datenbank dient ausschließlich als Container und wird über die ODBC-Schnittstelle vom Software-Kern angesprochen, der auch das strukturelle Management der Daten übernimmt. Dadurch können wir einen Betrieb mit Microsoft SQL-Server, Oracle und anderen gängigen Business-Datenbanksystemen und damit eine nachhaltige, professionelle Datenbasis für Ihr Unternehmen gewährleisten. Darüber hinaus haben Sie die Möglichkeit, den Betrieb der kompletten Server-Infrastruktur per „Software as a Service“ (Saas) bzw. Serverhosting an more dimensions zu übergeben. \n\n Durch eine einheitliche Benutzerführung und gemeinsame Prozessstrukturen können wir den Schulungsaufwand für Ihre Mitarbeiter auf ein Maß reduzieren, das für integrierte Management-Systeme revolutionär ist. Unser Ziel ist die Verwendung unserer Dienstleistung in erster Linie für die inhaltliche Auseinandersetzung mit Ihrem Unternehmen und nicht für die Klärung technischer Benutzerdetails für mehrere unterschiedliche Oberflächen."
+    }
+  }
+}

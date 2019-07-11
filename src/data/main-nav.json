@@ -1,0 +1,27 @@
+{
+  "socialLinks": [
+    { "icon": "mdi-xing", "link": "/x" },
+    { "icon": "mdi-linkedin", "link": "/l" },
+    { "icon": "mdi-facebook", "link": "/f" }
+  ],
+  "menuItems": [
+    { "title": "Home", "link": "/" },
+    { "title": "Über uns", "link": "/about",
+      "sublinks": [
+        { "title": "Team", "id": "team" },
+        { "title": "Gründergeschichte", "id": "story" },
+        { "title": "Partner", "id": "partners" },
+        { "title": "Philosophie", "id": "history" },
+        { "title": "Technologie", "id": "technology" }
+      ] 
+    },
+    { "title": "Dienstleistungen", "link": "/services" },
+    { "title": "Referenzen", "link": "/references" },
+    { "title": "Kontakt", "link": "/contact" }
+  ],
+  "customerMenu": [
+    { "icon": "mdi-bell", "title": "Serviceportal", "link": "" },
+    { "icon": "mdi-teamviewer", "title": "Fernwartung", "link": "" },
+    { "icon": "mdi-teamviewer", "title": "Meeting", "link": "" }
+  ]
+}
