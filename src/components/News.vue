@@ -3,16 +3,16 @@
     <v-layout row wrap>
 
       <v-flex xs12>
-        <h1 class="display-2 primary--text text-xs-center mt-4 mb-4">Neuigkeiten</h1>
-        <v-divider class="mb-4"></v-divider>
+        <h1 class="display-1 primary--text text-xs-center mt-2">Neuigkeiten</h1>
+        <v-divider class="mt-2 mb-2"></v-divider>
       </v-flex>
-´
+
       <v-flex xs12 lg8 offset-lg2>
         <v-layout row wrap>
 
           <v-flex xs12 sm6 class="pa-3" v-for="post in loadedNews" :key="post.id">
             <v-card outlined>
-              <v-img :src="getImageUrl(post.image)" height="175px" gradient="to top, rgba(0, 0, 0, 0.4) 0%, transparent 72px">
+              <v-img :src="getImageUrl(post.image)" height="175px">
                 <template v-slot:placeholder>
                   <v-layout
                     fill-height
@@ -68,6 +68,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'News',
   computed: {

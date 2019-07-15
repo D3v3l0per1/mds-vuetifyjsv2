@@ -32,8 +32,12 @@
       <v-btn icon class="hidden-xs-only">
         <v-icon>person</v-icon>
       </v-btn>
+
+      <v-btn class="primary hidden-xs-only custom-btn" dark outlined large to="/jobs">Finde deinen Traumjob</v-btn>
       
       <template v-slot:extension>
+        <v-spacer class="hidden-sm-and-up"></v-spacer>
+        <v-btn class="primary mb-2 hidden-sm-and-up" dark outlined large to="/jobs">Finde deinen Traumjob</v-btn>
         <v-toolbar-items class="hidden-xs-only" v-for="item in menuItems" :key="item.title">
           <v-btn :to="item.link" text class="grey--text text--darken-2">{{ item.title }}</v-btn>
         </v-toolbar-items>
@@ -126,9 +130,6 @@ export default {
       customerMenu: jsonData.customerMenu
     }
   },
-  mounted () {
-    console.log(this.menuItems.sublinks)
-  },
   methods: {
     getImageUrl(pic) {
       return require('../../assets/logos/'+pic)
@@ -136,3 +137,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .custom-btn {
+    position: fixed;
+    top: 65px;
+    right: 15px;
+  }
+</style>

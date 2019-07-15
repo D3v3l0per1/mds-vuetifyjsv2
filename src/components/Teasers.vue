@@ -1,34 +1,54 @@
 <template>
   <v-container>
-    <v-layout row wrap>
-      
-      <v-flex xs12 sm6 md4 class="pa-2" v-for="teaser in teasers" :key="teaser.id">
-        <v-card class="pt-4" style="height: 100%;">
+    <v-layout row wrap justify-center align-center>
+      <v-flex xs12 sm8>
+        <v-layout row wrap>
 
-          <v-img :src="getImageUrl(teaser.imageUrl)" height="100px" contain>
-            <template v-slot:placeholder>
-              <v-layout
-                fill-height
-                align-center
-                justify-center
-                ma-0
-              >
-              <v-progress-circular indeterminate color="primary"></v-progress-circular>
-            </v-layout>
-          </template>
-          </v-img>
+          <v-flex xs12 text-xs-center>
+            <h1 class="display-1 primary--text">Dienstleistungen</h1>
+            <v-divider class="mt-2"></v-divider>
+          </v-flex>
 
-          <v-card-text style="min-height: 300px;">
-            <div class="pr-3 pl-3">
-              <h2 class="text-xs-center mb-2">{{ teaser.title }}</h2>
-              <v-divider class="mb-3"></v-divider>
-              <p style="text-align: left;">{{ teaser.text }}<a class="primary--text" style="text-decoration: none;" :href="teaser.link" v-if="teaser.readMore === true"> Weiterlesen</a></p>
-            </div>
-          </v-card-text>
+          <v-flex xs12 md6 xl4 class="pa-4" v-for="teaser in teasers" :key="teaser.id">
+            <v-card class="pt-4" style="height: 100%;">
 
-        </v-card>
+              <v-img :src="getImageUrl(teaser.imageUrl)" height="80px" contain>
+                <template v-slot:placeholder>
+                  <v-layout
+                    fill-height
+                    align-center
+                    justify-center
+                    ma-0
+                  >
+                  <v-progress-circular indeterminate color="primary"></v-progress-circular>
+                </v-layout>
+              </template>
+              </v-img>
+
+              <v-card-text style="max-height: 230px;">
+                <!-- <simplebar style="max-height: 200px;"> -->
+                  <div>
+                    <h2 class="text-xs-center mb-2 text-truncate">{{ teaser.title }}</h2>
+                    <v-divider class="mb-3"></v-divider>
+                    <simplebar style="max-height: 150px" class="pl-3 pr-3">
+                      <p style="text-align: justify;">{{ teaser.text }}</p>
+                    </simplebar>
+                    <v-divider class="mt-3"></v-divider>
+                  </div>
+                <!-- </simplebar> -->
+              </v-card-text>
+
+              <v-card-actions text-xs-center>
+                <v-spacer></v-spacer>
+                <v-btn text class="primary--text" small :to="teaser.link">Weiterlesen</v-btn>
+                <v-spacer></v-spacer>
+              </v-card-actions>
+
+            </v-card>
+          </v-flex>
+
+        </v-layout>
       </v-flex>
-
     </v-layout>
   </v-container>
 </template>

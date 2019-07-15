@@ -7,12 +7,12 @@
 
             <v-layout justify-center align-center class="pt-5 mb-3">
               <v-flex xs12 sm5 text-xs-center>
-                <h1 class="display-2 font-weight-bold">Rezesionen</h1>
+                <h1 class="display-2 font-weight-bold" style="text-shadow: 2px 2px 20px #000;">Rezesionen</h1>
                 <!-- <v-divider class="white mt-2 mb-3"></v-divider> -->
               </v-flex>
             </v-layout>
             
-            <v-carousel :show-arrows="showArrows" hide-delimiters cycle>
+            <v-carousel show-arrows-on-hover hide-delimiters cycle>
               <v-carousel-item v-for="item in items" :key="item.id">
                 <v-layout justify-center align-center>
                   <v-flex xs12 sm8 md6 text-xs-center>

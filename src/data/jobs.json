@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "title": "Softwareentwickler",
+      "file": "software.pdf"
+    },
+    {
+      "title": "Webentwickler",
+      "file": "web.pdf"
+    }
+  ]
+}

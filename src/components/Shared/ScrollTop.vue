@@ -27,7 +27,7 @@ export default {
   .upScrollBtn {
     position: fixed;
     z-index: 9999;
-    bottom: 50px;
-    right: 50px;
+    bottom: 20px;
+    right: 20px;
   }
 </style>

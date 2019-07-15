@@ -38,36 +38,72 @@
       {
         "id": "member1",
         "name": "Heinz Repper",
-        "picture": "https://via.placeholder.com/200x200",
+        "picture": "",
         "position": "Geschäftsführender Gesesellschafter",
         "story": "1996-2008 Technischer Direktor und Vorstand des Wiener Konzerthauses, u.a. Projektleitung für die Generalsanierung, Neuentwicklung einer Veranstaltungs-Management-Software und strategische Projekte, als Consultant in strategischen, organisatorischen und technischen Fragen u.a. für die Philharmonie Luxemburg, Elbphilharmonie und Laeizshalle Hamburg sowie Wiener Stadthalle."
       },
       {
         "id": "member2",
         "name": "Dipl. Ing. (FH) Thomas Moser",
-        "picture": "https://via.placeholder.com/200x200",
+        "picture": "",
         "position": "Geschäftsführender Gesesellschafter",
         "story": "Studium Facility Management an der Fachhochschule Kufstein. Erfolgreiche Realisierung zahlreicher FM-Software-Projekte mit unterschiedlichsten Individuallösungen (u.a. Hilti, Fraunhofer, Giesecke & Devrient, Ziegler’sche Anstalten). 2003 komplette Neuentwicklung einer integrierten Veranstaltungsmanagement-Lösung für das Wiener Konzerthaus, in Folge weitere Implementierungen (u.a. Tonhalle Düsseldorf, Wiener Symphoniker, Jeunesse), weitere Projekte als Software-Entwicklung und Unternehmensberater mit dem Mozarteumorchester Salzburg, der Philharmonie Luxemburg und dem Gewandhaus Leipzig)."
       }
     ],
     "teams": [
       {
-        "id": "member1",
-        "name": "Max Mustermann",
-        "picture": "https://via.placeholder.com/200x200",
-        "position": "CEO & Projectmanager"
+        "id": "1",
+        "name": "Anne Heiden",
+        "picture": "",
+        "position": "Projektentwicklung"
       },
       {
-        "id": "member2",
-        "name": "Maxima Wunderland",
-        "picture": "https://via.placeholder.com/200x200",
+        "id": "2",
+        "name": "Jovanka Pesov",
+        "picture": "",
+        "position": "Projektleitung"
+      },
+      {
+        "id": "3",
+        "name": "Lucena Cotten",
+        "picture": "",
+        "position": "Projektmanagement"
+      },
+      {
+        "id": "4",
+        "name": "Ferdinand Weinberger",
+        "picture": "",
         "position": "Leitung Softwareentwicklung"
       },
       {
-        "id": "member3",
-        "name": "Anton Racuh",
-        "picture": "https://via.placeholder.com/200x200",
-        "position": "Softwareentwicklung"
+        "id": "5",
+        "name": "Roman Jünger",
+        "picture": "",
+        "position": "Softwareentwickler"
+      },
+      {
+        "id": "6",
+        "name": "Armin Sammer",
+        "picture": "",
+        "position": "Softwareentwickler"
+      },
+      {
+        "id": "7",
+        "name": "Laurena Schleich",
+        "picture": "",
+        "position": "Softwareentwickler"
+      },
+      {
+        "id": "8",
+        "name": "Jakob Rüdisser",
+        "picture": "",
+        "position": "Softwareentwickler"
+      },
+      {
+        "id": "9",
+        "name": "Ulrich Freisleben",
+        "picture": "",
+        "position": "Softwareentwickler"
       }
     ],
     "story": {

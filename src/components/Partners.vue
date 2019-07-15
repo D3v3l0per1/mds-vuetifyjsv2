@@ -5,7 +5,7 @@
         <v-layout row wrap>
 
           <v-flex xs12 text-xs-center class="mb-3">
-            <h1 class="display-2 primary--text">Unsere Partner</h1>
+            <h1 class="display-1 primary--text">Unsere Partner</h1>
           </v-flex>
 
           <v-flex xs12>
@@ -58,9 +58,9 @@
               <v-expand-transition>
                 <div v-show="showRestOfPartners">
                   
-                  <v-layout  justify-center align-center fill-height>
+                  <v-layout row wrap justify-center align-center fill-height>
                   
-                    <v-flex xs12 sm6 class="pa-2" text-xs-center v-for="partner in partners.others" :key="partner.name">
+                    <v-flex xs12 sm6 class="pa-4" text-xs-center v-for="partner in partners.others" :key="partner.name">
                       <v-card outlined>
                         <v-img :src="partner.image" contain style="max-height: 200px;"></v-img>
                         <v-card-title class="pb-0">

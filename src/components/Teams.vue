@@ -7,7 +7,7 @@
           <v-layout row wrap>
 
             <v-flex xs12 text-xs-center class="mb-3">
-              <h1 class="display-2 primary--text">Unser Team</h1>
+              <h1 class="display-1 primary--text">Unser Team</h1>
             </v-flex>
 
             <v-flex xs12>
@@ -17,7 +17,8 @@
                     
                     <v-flex xs12 lg6 class="pa-2" text-xs-center v-for="member in bosses" :key="member.id">
                       <v-card outlined>
-                        <img :src="member.picture" class="mt-3 custom-img">
+                        <img v-if="member.picture" :src="member.picture" class="mt-3 custom-img">
+                        <img v-else :src="getImageUrl('fp.jpg')" class="mt-3 custom-img">
                         <v-card-title class="pb-0">
                         <div class="text-truncate">{{ member.name }}</div>
                         </v-card-title>
@@ -64,7 +65,8 @@
                     
                       <v-flex xs12 lg6 class="pa-2" text-xs-center v-for="member in teams" :key="member.id">
                         <v-card outlined>
-                          <img :src="member.picture" class="mt-3 custom-img">
+                          <img v-if="member.picture" :src="member.picture" class="mt-3 custom-img">
+                          <img v-else :src="getImageUrl('fp.jpg')" class="mt-3 custom-img">
                           <v-card-title class="pb-0">
                           <div class="text-truncate mb-2">{{ member.name }}</div>
                           </v-card-title>
@@ -103,6 +105,11 @@ export default {
   },
   components: {
     simplebar
+  },
+  methods: {
+    getImageUrl(pic) {
+      return require('@/assets/'+pic)
+    }
   }
 }
 </script>

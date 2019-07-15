@@ -29,11 +29,6 @@ export default new Router({
       component: loadView('Contact')
     },
     {
-      path: '/teasers/hosting',
-      name: 'hosting',
-      component: loadView('Teasers/Hosting')
-    },
-    {
       path: '/news/:id',
       name: 'viewNews',
       props: true,
@@ -43,6 +38,16 @@ export default new Router({
       path: '/news',
       name: 'news',
       component: loadView('News/News')
+    },
+    {
+      path: '/jobs',
+      name: 'jobs',
+      component: loadView('Jobs')
+    },
+    {
+      path: '/services',
+      name: 'services',
+      component: loadView('Services')
     },
     {
       path: '*',

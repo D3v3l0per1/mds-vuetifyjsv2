@@ -25,7 +25,6 @@ export default new Vuex.Store({
   actions: {
     loadNews ({commit}) {
       const news = jsonData.news
-      console.log(news)
       commit('setLoadedNews', news)
     }
   },

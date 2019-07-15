@@ -2,43 +2,37 @@
    "teasers": [
     {
       "title": "Intelligente Lösungen",
-      "readMore": false,
-      "link": "",
+      "link": "/services/#intelligent_solutions",
       "text": "Ob Event- oder Finanz- und Immobilienmanagement, professionelle Beratung oder Systemanpassung, Schnittstellen-Design oder Business Intelligence, Serverhosting oder Support, bei more dimensions erhalten Sie integrierte Werkzeuge und eine nachhaltige Betreuung für Ihren Arbeitsalltag",
       "imageUrl": "pictogram_business_intelligence_orange_bitmap.png"
     },
     {
       "title": "Veranstaltungs Management",
-      "readMore": true,
-      "link": "/",
+      "link": "/services/#evis",
       "text": "Mit unserer Branchen-Lösung evis bilden wir die Basis für das integrierte Management von Eventlocations, Konzerthäusern, Orchestern und Festivals – evis bildet durch die richtige Auswahl der Module nahezu jede Konstellation des Veranstaltungsmanagements ab.",
       "imageUrl": "pictogram_stage_curtains_bitmap.png"
     },
     {
       "title": "Facility Management",
-      "readMore": true,
-      "link": "/",
+      "link": "/services/#ekus",
       "text": "Mit der Standard-Lösung e.kus unseres Partners pit-cup GmbH sowie zahlreichen von uns entwickelten Erweiterungen steht Ihnen eine erweiterbare Plattform zur Verfügung, in der Gebäude- und Flächenmanagement, Instandhaltung, Investitionsplanung sowie Schnittstellen zu weiteren Systemen für einen reibungslosen und effektiven Informationsfluss im Facility Management sorgen.",
       "imageUrl": "pictogram_factory_green_bitmap.png"
     },
     {
       "title": "Business Intelligence",
-      "readMore": false,
-      "link": "",
+      "link": "/services/#business_intelligence",
       "text": "Auf Basis der Power-BI-Tools von Microsoft verdichten wir Ihre Daten – ob mit evis oder e.kus als Quelle oder zusätzlichen Datenbanken, die bei Ihnen im Einsatz sind. Wir schaffen die Verbindung zu Ihren Detailinformationen aus Rechnungswesen, Ticketing, Personalmanagement sowie öffentlichen Datenquellen und verdichten diese in Form intuitiver Dashboards, die Ihnen in Sekundenschnelle einen Überblick über Ihr unternehmerisches Handeln verschaffen.",
       "imageUrl": "pictogram_intelligence_orange_bitmap.png"
     },
     {
       "title": "Hosting",
-      "readMore": true,
-      "link": "/teasers/hosting",
+      "link": "/services/#hosting",
       "text": "Mit unserer eigenen Serverfarm können wir die von uns angebotenen Systeme hosten, ohne dass Sie sich im Alltag mit der dahinterliegenden Infrastruktur aus Hardware, Datenbanken, Lizenzen, Backups und Sicherheitsvorkehrungen befassen müssen. Wir liefern Ihnen ein Gesamtpaket aus Hard- und Software als Blackbox, das pro Mitarbeiter pro Monat einfach skalier- und kalkulierbar ist.",
       "imageUrl": "pictogram_hosting_orange_bitmap.png"
     },
     {
       "title": "Dienstleistung",
-      "readMore": true,
-      "link": "/",
+      "link": "/services/#beratung",
       "text": "Ob Schulung, Beratung, Programmierung, Schnittstellen-Design oder Support – ein Software-System ist immer nur so gut wie die Implementierung im organisatorischen Zusammenhang. Mit einem Team von fachlich versierten Mitarbeitern kümmern wir uns um die zielgerechte Einführung unserer Systeme – stets im persönlichen Kontakt zwischen Kunde und Mitarbeiter. Wir sprechen nicht nur Programmiersprachen, sondern auch die Sprachen unserer Branchen – damit wir ohne Umwege gemeinsam zu effektiven Lösungen gelangen",
       "imageUrl": "pictogram_service_orange_bitmap.png"
     }
