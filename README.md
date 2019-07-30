@@ -19,7 +19,7 @@ nun kannst du mit deinem editor (npp oder so) im ordner die json dateien editier
 
 mit 
 ```
-npm run install
+npm install
 ```
 installierst diu die Pakete für den dev server
 dann wenn das fertig is kannst du einfach 
