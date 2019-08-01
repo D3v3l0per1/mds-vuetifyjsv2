@@ -1,29 +1,29 @@
-# mds_vuetify2
+## Projekt setup
 
-## Project setup
-```
-yarn install
-```
+### Softare zum download
+[Git](https://git-scm.com/downloads)
+[NodeJS](https://nodejs.org/en/download/)
 
-### Compiles and hot-reloads for development
+In die cmd reingehen
 ```
-yarn run serve
+cd Desktop
+git clone https://github.com/D3v3l0per1/mds-vuetifyjsv2.git
 ```
+Dann hast du nen Ordner auf dem desktop der so heißt
 
-### Compiles and minifies for production
+jetzt kanns du in den ordner reinnavigieren
 ```
-yarn run build
+cd mds-vuetifyjsv2
 ```
+nun kannst du mit deinem editor (npp oder so) im ordner die json dateien editieren
 
-### Run your tests
+mit 
 ```
-yarn run test
+npm install
 ```
-
-### Lints and fixes files
+installierst diu die Pakete für den dev server
+dann wenn das fertig is kannst du einfach 
 ```
-yarn run lint
+npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+sagen damit startet dann der live server bei dir lokal
