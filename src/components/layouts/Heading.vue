@@ -25,11 +25,11 @@
 
       <v-app-bar-nav-icon class="hidden-sm-and-up" @click="sidenav = true"></v-app-bar-nav-icon>
 
-      <v-btn icon v-for="item in socialLinks" :key="item.icon" class="hidden-xs-only">
+      <!-- <v-btn icon v-for="item in socialLinks" :key="item.icon" class="hidden-xs-only">
         <v-icon>{{item.icon}}</v-icon>
-      </v-btn>
+      </v-btn> -->
       
-      <v-btn icon class="hidden-xs-only">
+      <v-btn icon class="hidden-xs-only" to="/contact">
         <v-icon>person</v-icon>
       </v-btn>
 
@@ -47,10 +47,10 @@
         <v-toolbar-items class="hidden-xs-only">
           <v-menu offset-y>
             <template v-slot:activator="{ on }">
-              <v-btn outlined text class="grey--text text--darken-2" v-on="on">Kundenbereich <v-icon right>mdi-arrow-down-drop-circle-outline</v-icon></v-btn>
+              <v-btn outlined text class="grey--text text--darken-2" style="width: 235px;" v-on="on">Kundenbereich <v-icon right>mdi-arrow-down-drop-circle-outline</v-icon></v-btn>
             </template>
             <v-list>
-              <v-list-item v-for="item in customerMenu" :key="item.title" link>
+              <v-list-item v-for="item in customerMenu" :key="item.title" @click="openLinkInNewTab(item.link)">
                 <v-list-item-icon>
                   <v-icon right>{{ item.icon }}</v-icon>
                 </v-list-item-icon>
@@ -90,7 +90,7 @@
 
         <v-divider class="mt-2"></v-divider>
 
-        <v-list-item v-for="item in customerMenu" :key="item.title" link :to="item.link">
+        <v-list-item v-for="item in customerMenu" :key="item.title" @click="openLinkInNewTab(item.link)">
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
@@ -102,7 +102,7 @@
 
       </v-list>
 
-      <template v-slot:append>
+      <!-- <template v-slot:append>
 
         <h3 class="body-1 grey--text text--darken-2 text-xs-center">Social Links</h3>
 
@@ -111,7 +111,7 @@
         <v-layout justify-center align-center class="pa-2">
           <v-btn icon v-for="item in socialLinks" :key="item.link"><v-icon>{{ item.icon }}</v-icon></v-btn>
         </v-layout>
-      </template>
+      </template> -->
 
     </v-navigation-drawer>
   
@@ -133,6 +133,10 @@ export default {
   methods: {
     getImageUrl(pic) {
       return require('../../assets/logos/'+pic)
+    },
+    openLinkInNewTab (url) {
+      var win = window.open(url, '_blank')
+      win.focus()
     }
   }
 }

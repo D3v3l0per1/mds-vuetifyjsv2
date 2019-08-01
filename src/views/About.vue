@@ -1,18 +1,21 @@
 <template>
-  <v-layout row wrap>
-    
+  <v-layout row wrap justify-center align-center>
     <AboutParallax :pContent="about_us" customHeight="500" />
+    <v-flex xs12 sm6>
+      <v-layout row wrap>
 
-    <GreyText :content="story" />
+        <GreyText :content="story" class="my-3" />
 
-    <Teams :bosses="bosses" :teams="teams" />
+        <Teams :bosses="bosses" :teams="teams" />
 
-    <Partners :partners="partners" />
+        <Partners :partners="partners" />
 
-    <PlainText :content="philosophy" />
+        <PlainText :content="philosophy" class="my-3" />
 
-    <GreyText :content="technical" />
-  
+        <GreyText :content="technical" class="my-3" />
+
+      </v-layout>
+    </v-flex>
   </v-layout>
 </template>
 

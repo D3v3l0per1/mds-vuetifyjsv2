@@ -1,7 +1,7 @@
 <template>
   <v-layout row wrap>
     <v-flex xs12>
-      <v-parallax src="@/assets/hero.jpg" height="600">
+      <v-parallax src="@/assets/hero.jpg" height="650">
         <v-layout justify-center align-center style="margin-top: 100px;">
           <v-flex xs12>
 
@@ -18,7 +18,7 @@
                   <v-flex xs12 sm8 md6 text-xs-center>
 
                     <v-card outlined color="white">
-                      <v-img :src="item.logo" style="margin: 10px auto;" width="90%">
+                      <v-img :src="getImageUrl(item.logo)" contain class="ma-3" style="height: 199px; max-width: 950px;">
                         <template v-slot:placeholder>
                           <v-layout
                             fill-height
@@ -36,7 +36,11 @@
                       </v-card-title> -->
                       <v-card-text class="grey--text text--darken-2">
                         <div class="grey lighten-3" style="padding: 20px; font-size: 1.1rem; line-height: 1.5; border-radius: 5px;">
-                          {{ item.description }}
+                          <simplebar style="max-height: 100px;">
+                            <p style="text-align: justify;">
+                              {{ item.description }}
+                            </p>
+                          </simplebar>
                         </div>
                       </v-card-text>
                     </v-card>
@@ -61,6 +65,11 @@ export default {
     return {
       showArrows: false,
       items: jsonData.references
+    }
+  },
+  methods: {
+    getImageUrl(pic) {
+      return require('@/assets/logos/'+pic)
     }
   }
 }

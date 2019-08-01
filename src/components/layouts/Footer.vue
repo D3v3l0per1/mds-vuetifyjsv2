@@ -1,7 +1,7 @@
 <template>
   <v-footer padless dark>
     <v-card flat style="width: 100%;" class="primary white--text text-xs-center">
-      <v-card-text>
+      <!-- <v-card-text>
         <v-layout row wrap>
 
           <v-flex xs12 sm6 md3 v-for="item in footerItems" :key="item.title" class="pa-2">
@@ -26,10 +26,10 @@
         </v-layout>
       </v-card-text>
 
-      <v-divider></v-divider>
+      <v-divider></v-divider> -->
 
       <v-card-text>
-        &copy; {{ new Date().getFullYear() }} - More Dimensions GmbH
+        &copy; {{ new Date().getFullYear() }} - more dimensions GmbH
       </v-card-text>
     </v-card>   
   </v-footer>

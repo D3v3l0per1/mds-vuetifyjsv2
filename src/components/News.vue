@@ -10,20 +10,10 @@
       <v-flex xs12 lg8 offset-lg2>
         <v-layout row wrap>
 
-          <v-flex xs12 sm6 class="pa-3" v-for="post in loadedNews" :key="post.id">
-            <v-card outlined>
-              <v-img :src="getImageUrl(post.image)" height="175px">
-                <template v-slot:placeholder>
-                  <v-layout
-                    fill-height
-                    align-center
-                    justify-center
-                    ma-0
-                  >
-                  <v-progress-circular indeterminate color="primary"></v-progress-circular>
-                  </v-layout>
-                </template>
-                  <v-card-title class="align-end fill-height">
+            <v-flex xs12 sm6 class="pa-3" v-for="post in loadedNews" :key="post.id">
+              <v-card outlined>
+                <v-img :src="getImageUrl(post.image)" height="175px">
+                  <v-card-title class="align-end fill-height bottom-gradient">
                     <span class="headline font-weight-regular white--text text-truncate">{{ post.title }}</span>
                   </v-card-title>
                   <template v-slot:placeholder>
@@ -68,8 +58,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'News',
   computed: {
@@ -84,3 +72,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .bottom-gradient {
+    background-image: linear-gradient(to top, rgba(0,0,0,.4) 0%, transparent 72px);
+  }
+</style>

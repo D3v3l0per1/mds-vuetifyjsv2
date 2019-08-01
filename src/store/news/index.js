@@ -1,11 +1,6 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import jsonData from '@/data/news.json'
 
-import jsonData from './data/news.json'
-
-Vue.use(Vuex)
-
-export default new Vuex.Store({
+export default {
   state: {
     loadedNews: [
       {
@@ -45,4 +40,4 @@ export default new Vuex.Store({
       }
     }
   }
-})
+}

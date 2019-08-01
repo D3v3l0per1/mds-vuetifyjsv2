@@ -7,7 +7,7 @@
 
     <References />
 
-    <News />
+    <!-- <News /> -->
     
   </div>
 </template>

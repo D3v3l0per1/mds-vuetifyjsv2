@@ -50,6 +50,11 @@ export default new Router({
       component: loadView('Services')
     },
     {
+      path: '/references',
+      name: 'references',
+      component: loadView('References')
+    },
+    {
       path: '*',
       name: 'error',
       component: Error

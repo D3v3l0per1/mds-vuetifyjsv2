@@ -62,15 +62,7 @@ export default {
       teasers: jsonData.teasers
     }
   },
-  mounted () {
-    this.onResize()
-  },
   methods: {
-    onResize () {
-      if (window.innerWidth === 600) {
-        console.log("ohoh xs")
-      }
-    },
     getImageUrl(pic) {
       return require('../assets/teasers/'+pic)
     }

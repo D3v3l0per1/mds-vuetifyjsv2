@@ -29,13 +29,7 @@
 </template>
 
 <script>
-import OutCar from '../components/PageLayout/OutlineCard'
-import goTo from 'vuetify/es5/directives/scroll'
-
 export default {
-  props: ['content'],
-  components: {
-    OutCar
-  }
+  props: ['content']
 }
 </script>

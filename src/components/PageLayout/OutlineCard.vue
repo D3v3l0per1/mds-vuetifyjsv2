@@ -7,7 +7,7 @@
       <v-divider></v-divider>
       <v-card-text>
         <simplebar style="max-height: 350px;">
-          <p style="white-space: pre-line;">{{ content.text }}</p>
+          <p style="white-space: pre-line; text-align: justify;">{{ content.text }}</p>
         </simplebar>
       </v-card-text>
     </v-card>

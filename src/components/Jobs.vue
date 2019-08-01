@@ -5,24 +5,33 @@
         <v-layout row wrap align-center justify-center>
         
           <v-flex xs12 md6 xl4 class="pa-4" v-for="job in jobs" :key="job.id">
-            <v-card>
+            <v-card outlined>
 
-              <v-card-text style="max-height: 230px;">
-                <v-layout row wrap align-center justify-center>
-                  <v-flex xs12 text-xs-center>
-                    <v-icon style="font-size: 100px;">mdi-code-braces</v-icon>
-                  </v-flex>
-                  <v-flex xs12>
-                    <h2 class="text-xs-center mb-2 text-truncate">{{ job.title }}</h2>
-                  </v-flex>
-                </v-layout>
-              </v-card-text>
+              <v-img :src="getImageUrl(job.image)" contain></v-img>
+
+              <v-card-title>
+                <v-spacer></v-spacer>
+                <h1 class="headline grey--text text--darken-2 font-weight-bold">{{ job.title }}</h1>
+                <v-spacer></v-spacer>
+              </v-card-title>
 
               <v-divider></v-divider>
 
               <v-card-actions text-xs-center>
                 <v-spacer></v-spacer>
-                <v-btn text class="primary--text" small>Job Beschreibung</v-btn>
+                 <v-btn text class="primary--text" small @click="openLinkInNewTab(job.file)">Job Beschreibung</v-btn>
+                <!-- <v-dialog v-model="lol" width="500">
+                  <template v-slot:activator="{ on }">
+                    <v-btn text class="primary--text" small v-on="on">Job Beschreibung</v-btn>
+                  </template>
+
+                  <v-card>
+                    <v-card-title>lol</v-card-title>
+                    <v-card-text>
+                      <pdf src="./public/pdf/web.pdf"></pdf>
+                    </v-card-text>
+                  </v-card>
+                </v-dialog> -->
                 <v-spacer></v-spacer>
               </v-card-actions>
 
@@ -37,11 +46,24 @@
 
 <script>
 import jsonData from '@/data/jobs.json'
+// import pdf from 'pdfvuer'
 
 export default {
   data () {
     return {
       jobs: jsonData.jobs
+    }
+  },
+  components: {
+    // pdf
+  },
+  methods: {
+    getImageUrl(pic) {
+      return require('@/assets/'+pic)
+    },
+    openLinkInNewTab (url) {
+      var win = window.open(url, '_blank')
+      win.focus()
     }
   }
 }
