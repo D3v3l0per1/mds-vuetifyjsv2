@@ -3,12 +3,7 @@
           
     <v-img :src="partner.image" contain height="200px" class="my-3">
       <template v-slot:placeholder>
-        <v-layout
-          fill-height
-          align-center
-          justify-center
-          ma-0
-        >
+        <v-layout fill-height align-center justify-center ma-0>
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
         </v-layout>
       </template>

@@ -26,18 +26,6 @@
               <v-card-actions text-xs-center>
                 <v-spacer></v-spacer>
                  <v-btn text class="primary--text" small @click="openLinkInNewTab(job.file)">Job Beschreibung</v-btn>
-                <!-- <v-dialog v-model="lol" width="500">
-                  <template v-slot:activator="{ on }">
-                    <v-btn text class="primary--text" small v-on="on">Job Beschreibung</v-btn>
-                  </template>
-
-                  <v-card>
-                    <v-card-title>lol</v-card-title>
-                    <v-card-text>
-                      <pdf src="./public/pdf/web.pdf"></pdf>
-                    </v-card-text>
-                  </v-card>
-                </v-dialog> -->
                 <v-spacer></v-spacer>
               </v-card-actions>
 
@@ -52,16 +40,12 @@
 
 <script>
 import jsonData from '@/data/jobs.json'
-// import pdf from 'pdfvuer'
 
 export default {
   data () {
     return {
       jobs: jsonData.jobs
     }
-  },
-  components: {
-    // pdf
   },
   methods: {
     getImageUrl(pic) {

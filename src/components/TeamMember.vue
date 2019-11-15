@@ -2,24 +2,14 @@
   <v-card outlined>
     <v-img v-if="member.picture" :src="getImageUrl(member.picture)" class="custom-img my-3">
       <template v-slot:placeholder>
-        <v-layout
-          fill-height
-          align-center
-          justify-center
-          ma-0
-        >
+        <v-layout fill-height align-center justify-center ma-0>
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
         </v-layout>
       </template>
     </v-img>
     <v-img v-else :src="getImageUrl('fp.jpg')" class="custom-img my-3">
       <template v-slot:placeholder>
-        <v-layout
-          fill-height
-          align-center
-          justify-center
-          ma-0
-        >
+        <v-layout fill-height align-center justify-center ma-0>
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
         </v-layout>
       </template>
@@ -68,6 +58,9 @@ export default {
     return {
       showBossOneDesc: false
     }
+  },
+  components: {
+    simplebar
   }
 }
 </script>

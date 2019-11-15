@@ -6,7 +6,6 @@
 
     <References />
 
-    <!-- <News /> -->
   </div>
 </template>
 
@@ -14,14 +13,12 @@
 import ParallaxWSloagan from "../components/ParallaxWSloagan";
 import Teasers from "../components/Teasers";
 import References from "../components/References";
-// import News from "../components/News";
 
 export default {
   components: {
     ParallaxWSloagan,
     Teasers,
     References,
-    // News
   }
 };
 </script>

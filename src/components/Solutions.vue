@@ -10,10 +10,13 @@
 
           <v-flex xs12 xl6 class="pa-2" v-for="item in content.items" :id="item.link" :key="item.title">
             <v-card outlined>
-              <v-img :src="getImageUrl(item.image)" class="mt-3 mb-3" contain style="max-height: 150px;"></v-img>
-              <!-- <v-card-title class="text-xs-center">
-                <h1 class="headline">{{ item.title }}</h1>
-              </v-card-title> -->
+              <v-img :src="getImageUrl(item.image)" class="mt-3 mb-3" contain style="max-height: 150px;">
+                <template v-slot:placeholder>
+                  <v-layout fill-height align-center justify-center ma-0>
+                    <v-progress-circular indeterminate color="primary"></v-progress-circular>
+                  </v-layout>
+                </template>
+              </v-img>
               <v-divider class="mb-2"></v-divider>
               <v-card-text class="pt-2">
                 <simplebar style="max-height: 150px;" data-simplebar-auto-hide="false">

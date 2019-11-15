@@ -2,7 +2,6 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
-import { store } from './store/index'
 import './registerServiceWorker'
 import vuetify from './plugins/vuetify';
 import FlagIcon from 'vue-flag-icon'
@@ -27,7 +26,6 @@ Vue.use(FlagIcon)
 
 new Vue({
   router,
-  store,
   vuetify,
   // created () {
   //    this.$store.dispatch('loadNews')

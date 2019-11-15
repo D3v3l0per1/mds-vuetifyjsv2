@@ -6,7 +6,7 @@
 //     plugins: [
 //       new PrerenderSPAPlugin({
 //         staticDir: path.join(__dirname, 'dist'),
-//         routes: ['/', '/about', '/contact', '/news', '/jobs', '/references', '/services']
+//         routes: ['/', '/about', '/contact', '/jobs', '/references', '/services']
 //       })
 //     ]
 //   }

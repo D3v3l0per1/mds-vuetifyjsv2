@@ -1,28 +1,35 @@
 <template>
   <v-container>
-    <v-layout row wrap justify-center align-center>
-      <v-flex xs12 sm6 xl8>
+    <v-layout row wrap>
+
+      <!-- <v-flex xs12 class="mb-3">
+        <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"></v-parallax>
+      </v-flex> -->
+
+      <v-flex xs12 lg6 class="px-2" text-xs-center>
+        <h1 class="display-1 primary--text">Konzerthäuser</h1>
+        <v-divider></v-divider>
         <v-layout row wrap>
-          <v-flex xs12 xl6>
-            <v-layout row wrap>
-              <v-flex xs12>
-                <h1 class="display-1 primary--text">Konzerthäuser</h1>
-                <v-divider></v-divider>
-              </v-flex>
-              <Customer :data="conzerts" />
-            </v-layout>
+
+          <v-flex xs12 class="pa-2" v-for="customer in conzerts" :key="customer.title">
+            <Customer :customer="customer" />
           </v-flex>
-          <v-flex xs12 xl6>
-            <v-layout row wrap>
-              <v-flex xs12>
-                <h1 class="display-1 primary--text">Orchester</h1>
-                <v-divider></v-divider>
-              </v-flex>
-              <Customer :data="orchester" />
-            </v-layout>
-          </v-flex>
+
         </v-layout>
       </v-flex>
+
+      <v-flex xs12 lg6 class="px-2" text-xs-center>
+        <h1 class="display-1 primary--text">Orchester</h1>
+        <v-divider></v-divider>
+        <v-layout row wrap>
+
+          <v-flex xs12 class="pa-2" v-for="customer in orchester" :key="customer.title">
+            <Customer :customer="customer" />
+          </v-flex>
+
+        </v-layout>
+      </v-flex>
+
     </v-layout>
   </v-container>
 </template>
@@ -40,18 +47,6 @@ export default {
   },
   components: {
     Customer
-  },
-  methods: {
-    getImageUrl(pic) {
-      return require("@/assets/logos/" + pic);
-    }
-  },
-  // mounted() {
-  //   this.$vuetify.goTo(0, {
-  //     duration: 300,
-  //     offset: 0,
-  //     easing: "easeInCubic"
-  //   });
-  // }
+  }
 };
 </script>
