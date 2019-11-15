@@ -2,9 +2,9 @@
   <v-app>
     
     <!-- <vue-custom-scrollbar class="scr"> -->
-      <Heading style="margin-bottom: 170px;" />
+      <Heading />
 
-      <router-view></router-view>
+      <router-view style="margin-top: 170px;"></router-view>
 
       <Footer />
     <!-- </vue-custom-scrollbar> -->

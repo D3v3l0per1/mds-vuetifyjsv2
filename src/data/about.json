@@ -34,78 +34,98 @@
         }
       ]
     },
-    "bosses": [
-      {
-        "id": "member1",
-        "name": "Heinz Repper",
-        "picture": "",
-        "position": "Geschäftsführender Gesesellschafter",
-        "story": "1996-2008 Technischer Direktor und Vorstand des Wiener Konzerthauses, u.a. Projektleitung für die Generalsanierung, Neuentwicklung einer Veranstaltungs-Management-Software und strategische Projekte, als Consultant in strategischen, organisatorischen und technischen Fragen u.a. für die Philharmonie Luxemburg, Elbphilharmonie und Laeizshalle Hamburg sowie Wiener Stadthalle."
-      },
-      {
-        "id": "member2",
-        "name": "DI (FH) Thomas Moser",
-        "picture": "",
-        "position": "Geschäftsführender Gesesellschafter",
-        "story": "Studium Facility Management an der Fachhochschule Kufstein. Erfolgreiche Realisierung zahlreicher FM-Software-Projekte mit unterschiedlichsten Individuallösungen (u.a. Hilti, Fraunhofer, Giesecke & Devrient, Ziegler’sche Anstalten). 2003 komplette Neuentwicklung einer integrierten Veranstaltungsmanagement-Lösung für das Wiener Konzerthaus, in Folge weitere Implementierungen (u.a. Tonhalle Düsseldorf, Wiener Symphoniker, Jeunesse), weitere Projekte als Software-Entwickler und Unternehmensberater mit dem Mozarteumorchester Salzburg, der Philharmonie Luxemburg und dem Gewandhaus Leipzig)."
-      }
-    ],
-    "teams": [
-      {
-        "id": "1",
-        "name": "Anne Heiden",
-        "picture": "",
-        "position": "Projektentwicklung"
-      },
-      {
-        "id": "2",
-        "name": "Jovanka Pesov",
-        "picture": "",
-        "position": "Projektleitung"
-      },
-      {
-        "id": "3",
-        "name": "Lucena Cotten",
-        "picture": "",
-        "position": "Projektmanagement"
-      },
-      {
-        "id": "4",
-        "name": "Ferdinand Weinberger",
-        "picture": "",
-        "position": "Leitung Softwareentwicklung"
-      },
-      {
-        "id": "5",
-        "name": "Roman Jünger",
-        "picture": "",
-        "position": "Softwareentwickler"
-      },
-      {
-        "id": "6",
-        "name": "Armin Sammer",
-        "picture": "",
-        "position": "Softwareentwickler"
-      },
-      {
-        "id": "7",
-        "name": "Laurena Schleich",
-        "picture": "",
-        "position": "Softwareentwickler"
-      },
-      {
-        "id": "8",
-        "name": "Jakob Rüdisser",
-        "picture": "",
-        "position": "Softwareentwickler"
-      },
-      {
-        "id": "9",
-        "name": "Ulrich Freisleben",
-        "picture": "",
-        "position": "Softwareentwickler"
-      }
-    ],
+    "team": {
+      "bosses": [
+        {
+          "id": "member1",
+          "name": "Heinz Repper",
+          "picture": "heinz.png",
+          "position": "Geschäftsführender Gesesellschafter",
+          "story": "1996-2008 Technischer Direktor und Vorstand des Wiener Konzerthauses, u.a. Projektleitung für die Generalsanierung, Neuentwicklung einer Veranstaltungs-Management-Software und strategische Projekte, als Consultant in strategischen, organisatorischen und technischen Fragen u.a. für die Philharmonie Luxemburg, Elbphilharmonie und Laeizshalle Hamburg sowie Wiener Stadthalle."
+        },
+        {
+          "id": "member2",
+          "name": "DI (FH) Thomas Moser",
+          "picture": "tom.jpg",
+          "position": "Geschäftsführender Gesesellschafter",
+          "story": "Studium Facility Management an der Fachhochschule Kufstein. Erfolgreiche Realisierung zahlreicher FM-Software-Projekte mit unterschiedlichsten Individuallösungen (u.a. Hilti, Fraunhofer, Giesecke & Devrient, Ziegler’sche Anstalten). 2003 komplette Neuentwicklung einer integrierten Veranstaltungsmanagement-Lösung für das Wiener Konzerthaus, in Folge weitere Implementierungen (u.a. Tonhalle Düsseldorf, Wiener Symphoniker, Jeunesse), weitere Projekte als Software-Entwickler und Unternehmensberater mit dem Mozarteumorchester Salzburg, der Philharmonie Luxemburg und dem Gewandhaus Leipzig)."
+        }
+      ],
+      "members": [
+        {
+          "id": "1",
+          "name": "Anne Heiden",
+          "picture": "",
+          "position": "Projektleitung; Vertrieb"
+        },
+        {
+          "id": "2",
+          "name": "Jovanka Pesov",
+          "picture": "",
+          "position": "Projektleitung; Vertrieb"
+        },
+        {
+          "id": "4",
+          "name": "Ferdinand Weinberger",
+          "picture": "",
+          "position": "Führungsteam Entwicklung"
+        },
+        {
+          "id": "5",
+          "name": "Roman Jünger",
+          "picture": "",
+          "position": "Führungsteam Entwicklung"
+        },
+        {
+          "id": "6",
+          "name": "Armin Sammer",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        },
+        {
+          "id": "7",
+          "name": "Laurena Schleich",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        },
+        {
+          "id": "8",
+          "name": "Jakob Rüdisser",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        },
+        {
+          "id": "9",
+          "name": "Ulrich Freisleben",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        },
+        {
+          "id": "11",
+          "name": "Manuel Widmoser",
+          "picture": "",
+          "position": "Entwicklungsteam (Web)"
+        },
+        {
+          "id": "12",
+          "name": "Alistair Mimm",
+          "picture": "",
+          "position": "Entwicklungsteam (Web)"
+        },
+        {
+          "id": "3",
+          "name": "Lucena Cotten",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        },
+        {
+          "id": "10",
+          "name": "Anna Feichtner",
+          "picture": "",
+          "position": "Entwicklungsteam"
+        }
+      ]
+    },
     "story": {
       "title": "Gründergeschichte",
       "text": "2007 suchte Heinz Repper für das Wiener Konzerthaus eine Software für den Bereich Facillity Management. Dadurch lernte er Thomas Moser kennen. \n Durch die Präsentation der Facillity Management Software kamen beide auf eine Blitzidee: \n\n Warum nicht den Software-Kern auch für den Veranstaltungsbereich nutzen? Die Grundidee von evis ist geboren. Damals hieß die Software noch ELMIS => Eierlengende Milch Sau. \n\n Aus dieser Zusammenarbeit entstand die Idee more dimensions zu gründen. Der Firmenname more dimensions baut sich aus den Nachnamen von Moser und Repper zusammen und es bedeutet selbstverständlich noch mehr... \n\n Im Jahr 2008 ging die Firma in an den Start. \n Mit Sitz in Wien als Kulturhauptstadt Österreichs und Kufstein imm schönsten Bundesland Österreich, TIROL."

@@ -2,11 +2,13 @@
   "jobs": [
     {
       "title": "Softwareentwickler",
-      "file": "software.pdf"
+      "file": "https://drive.google.com/open?id=1M5a9MIox3y-77IrfDdShpoYx2A1cos2H",
+      "image": "job.png"
     },
     {
       "title": "Webentwickler",
-      "file": "web.pdf"
+      "file": "https://drive.google.com/open?id=1pX2kVAWgu0rtUDjMVD32ykNmcg33KC1d",
+      "image": "job.png"
     }
   ]
 }

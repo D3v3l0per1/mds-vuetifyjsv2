@@ -20,17 +20,17 @@ export default {
   components: {
     LongPlainText,
   },
-  methods: {
-    scrollTop () {
-      this.$vuetify.goTo(0, { 
-        duration: 300,
-        offset: 0,
-        easing: 'easeInCubic'
-      })
-    }
-  },
-  mounted () {
-    this.scrollTop()
-  }
+  // methods: {
+  //   scrollTop () {
+  //     this.$vuetify.goTo(0, { 
+  //       duration: 300,
+  //       offset: 0,
+  //       easing: 'easeInCubic'
+  //     })
+  //   }
+  // },
+  // mounted () {
+  //   this.scrollTop()
+  // }
 }
 </script>

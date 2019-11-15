@@ -1,9 +1,8 @@
 <template>
   <v-container>
     <v-layout row wrap justify-center align-center>
-      <v-flex xs12 sm8 md6>
+      <v-flex xs12 sm8 services>
         <v-layout row wrap>
-
           <OutCar :content="intelligent_solutions" id="intelligent_solutions" />
 
           <OutCar :content="interfaces" />
@@ -16,33 +15,32 @@
 
           <OutCar :content="consultation" id="beratung" />
 
-          <OutCar :content="customizing" />
+          <OutCar :content="customizing" id="customizing" />
 
-          <OutCar :content="training" />
-
-        </v-layout>  
+          <OutCar :content="training" id="training" />
+        </v-layout>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
-import jsonData from '../data/service.json'
-import OutCar from '../components/PageLayout/OutlineCard'
-import Solutions from '../components/Solutions'
+import jsonData from "../data/service.json";
+import OutCar from "../components/PageLayout/OutlineCard";
+import Solutions from "../components/Solutions";
 
 export default {
-  data () {
+  data() {
     return {
-      intelligent_solutions: jsonData.intelligent_solutions,
-      business_intelligence: jsonData.business_intelligence,
-      interfaces: jsonData.interfaces,
-      software_solutions: jsonData.software_solutions,
-      hosting: jsonData.hosting,
-      consultation: jsonData.consultation,
-      customizing: jsonData.customizing,
-      training: jsonData.training
-    }
+      intelligent_solutions: jsonData.services.intelligent_solutions,
+      business_intelligence: jsonData.services.business_intelligence,
+      interfaces: jsonData.services.interfaces,
+      software_solutions: jsonData.services.software_solutions,
+      hosting: jsonData.services.hosting,
+      consultation: jsonData.services.consultation,
+      customizing: jsonData.services.customizing,
+      training: jsonData.services.training
+    };
   },
   components: {
     OutCar,
@@ -52,12 +50,12 @@ export default {
   //   console.log()
   //   goTo(this.content.link)
   // }
-  mounted () {
-    this.$vuetify.goTo(0, { 
-      duration: 300,
-      offset: 0,
-      easing: 'easeInCubic'
-    })
-  }
-}
+  // mounted() {
+  //   this.$vuetify.goTo(0, {
+  //     duration: 300,
+  //     offset: 0,
+  //     easing: "easeInCubic"
+  //   });
+  // }
+};
 </script>

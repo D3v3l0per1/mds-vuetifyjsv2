@@ -6,7 +6,7 @@
       </v-card-title>
       <v-divider></v-divider>
       <v-card-text>
-        <simplebar style="max-height: 350px;">
+        <simplebar style="max-height: 350px;" data-simplebar-auto-hide="false" class="pr-3 pl-3">
           <p style="white-space: pre-line; text-align: justify;">{{ content.text }}</p>
         </simplebar>
       </v-card-text>

@@ -1,12 +1,12 @@
 <template>
   <v-layout row wrap justify-center align-center>
     <AboutParallax :pContent="about_us" customHeight="500" />
-    <v-flex xs12 sm6>
+    <v-flex xs12 sm8>
       <v-layout row wrap>
 
         <GreyText :content="story" class="my-3" />
 
-        <Teams :bosses="bosses" :teams="teams" />
+        <Teams :team="team" />
 
         <Partners :partners="partners" />
 
@@ -41,23 +41,22 @@ export default {
       philosophy: jsonData.about.philosophy,
       story: jsonData.about.story,
       partners: jsonData.about.partners,
-      bosses: jsonData.about.bosses,
-      teams: jsonData.about.teams,
+      team: jsonData.about.team,
       technical: jsonData.about.technical
     }
   },
-  methods: {
-    scrollTop () {
-      this.$vuetify.goTo(0, { 
-        duration: 300,
-        offset: 0,
-        easing: 'easeInCubic'
-      })
-    }
-  },
-  mounted () {
-    this.scrollTop()
-  }
+  // methods: {
+  //   scrollTop () {
+  //     this.$vuetify.goTo(0, { 
+  //       duration: 300,
+  //       offset: 0,
+  //       easing: 'easeInCubic'
+  //     })
+  //   }
+  // },
+  // mounted () {
+  //   this.scrollTop()
+  // }
 }
 </script>
 

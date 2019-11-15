@@ -2,7 +2,7 @@
   <v-flex xs12>
     <v-parallax src="@/assets/hero.jpg" :height="customHeight">
       <v-layout row wrap justify-center align-center >
-        <v-flex xs12 sm6 class="banner mt-5 pa-4" style="max-height: 350px;">
+        <v-flex xs12 sm8 class="banner mt-5 pa-4" style="max-height: 350px;">
           <h1 class="display-1 primary--text text-xs-center">{{ pContent.title }}</h1>
           <v-divider class="mt-1 mb-2 white"></v-divider>
           <!-- <div style="max-height: 270px; overflow-y: scroll;"> -->

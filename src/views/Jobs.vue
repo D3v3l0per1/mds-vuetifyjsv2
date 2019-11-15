@@ -20,12 +20,12 @@ export default {
   components: {
     Jobs
   },
-  mounted () {
-    this.$vuetify.goTo(0, { 
-      duration: 300,
-      offset: 0,
-      easing: 'easeInCubic'
-    })
-  }
+  // mounted () {
+  //   this.$vuetify.goTo(0, { 
+  //     duration: 300,
+  //     offset: 0,
+  //     easing: 'easeInCubic'
+  //   })
+  // }
 }
 </script>

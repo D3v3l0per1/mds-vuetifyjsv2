@@ -1,0 +1,162 @@
+{
+  "references": {
+    "conzerts": [
+      {
+        "id": "1",
+        "title": "Wiener Konzerthaus",
+        "logo": "wk_logo.png",
+        "website": "https://www.konzerthaus.at",
+        "description": ""
+      },
+      {
+        "id": "18",
+        "title": "Besondere Orte Berlin",
+        "logo": "bo_logo.jpg",
+        "website": "https://www.konzerthaus.at",
+        "description": "„Der Support ist großartig: freundlich und schnell. Unsere Belange werden ernst genommen und Frau Cotten, die wir hier gerne dankend erwähnen möchten, ist jederzeit für uns da und arbeitet mit uns gemeinsam am Feintuning der EVIS-Implementierung!“ "
+      },
+      {
+        "id": "2",
+        "title": "Wiener Musikverein",
+        "logo": "",
+        "website": "https://www.musikverein.at/",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "Wiener Stadthalle",
+        "logo": "",
+        "website": "https:/www.stadthalle.com",
+        "description": ""
+      },
+      {
+        "id": "4",
+        "title": "Jeunesse Österreich",
+        "logo": "",
+        "website": "https://www.jeunesse.at",
+        "description": ""
+      },
+      {
+        "id": "5",
+        "title": "Gewandhaus Leipzig",
+        "logo": "",
+        "website": "https://www.gewandhaus.de",
+        "description": ""
+      },
+      {
+        "id": "6",
+        "title": "Konzerthaus Berlin",
+        "logo": "",
+        "website": "http://www.konzerthaus.de/",
+        "description": ""
+      },
+      {
+        "id": "7",
+        "title": "Berliner Philharmonie",
+        "logo": "",
+        "website": "http://www.berliner-philharmoniker.de",
+        "description": ""
+      },
+      {
+        "id": "9",
+        "title": "Elphilharmonie\\Laeiszhalle Hamburg",
+        "logo": "",
+        "website": "http://www.elbphilharmonie.de",
+        "description": ""
+      },
+      {
+        "id": "10",
+        "title": "Philharmonie Luxemburg",
+        "logo": "",
+        "website": "mds",
+        "description": ""
+      },
+      {
+        "id": "11",
+        "title": "MDR - Mitteldeutscher Rundfunk",
+        "logo": "",
+        "website": "http://www.mdr.de",
+        "description": ""
+      },
+      {
+        "id": "12",
+        "title": "Ruhrtriennale",
+        "logo": "",
+        "website": "https://www.ruhrtriennale.de/de/home/",
+        "description": ""
+      },
+      {
+        "id": "13",
+        "title": "Haus der Musik Innsbruck (Tiroler Landestheater)",
+        "logo": "",
+        "website": "https://www.haus-der-musik-innsbruck.at/",
+        "description": ""
+      },
+      {
+        "id": "14",
+        "title": "Tonhalle Gesellschaft Zürich",
+        "logo": "",
+        "website": "https://www.tonhalle-orchester.ch/",
+        "description": ""
+      }
+    ],
+    "orchester": [
+      {
+        "id": "1",
+        "title": "Wiener Symphoniker",
+        "logo": "",
+        "website": "https://www.wienersymphoniker.at/",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "Wiener Philharmoniker",
+        "logo": "",
+        "website": "https://www.wienerphilharmoniker.at/",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "Berliner Philharmoniker",
+        "logo": "",
+        "website": "https://www.berliner-philharmoniker.de/",
+        "description": ""
+      },
+      {
+        "id": "4",
+        "title": "Symphonieorchester des Bayrischen Rundfunks",
+        "logo": "",
+        "website": "",
+        "description": ""
+      },
+      {
+        "id": "5",
+        "title": "Mozarteumorchester Salzburg",
+        "logo": "",
+        "website": "https://www.br-so.de/",
+        "description": ""
+      },
+      {
+        "id": "6",
+        "title": "Orchestre Philharmonique du Luxembourg",
+        "logo": "",
+        "website": "",
+        "description": ""
+      },
+      {
+        "id": "7",
+        "title": "Haydn Orchester Bozen & Trient",
+        "logo": "",
+        "website": "https://www.philharmonie.lu/de/opl/",
+        "description": ""
+      },
+      {
+        "id": "8",
+        "title": "Tonhalle Gesellschaft Zürich",
+        "logo": "",
+        "website": "",
+        "description": "https://www.tonhalle-orchester.ch/"
+      }
+    ]
+  }
+}

@@ -29,8 +29,8 @@ new Vue({
   router,
   store,
   vuetify,
-  created () {
-    this.$store.dispatch('loadNews')
-  },
+  // created () {
+  //    this.$store.dispatch('loadNews')
+  // },
   render: h => h(App)
 }).$mount('#app')
