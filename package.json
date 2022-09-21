@@ -20,7 +20,7 @@
     "vue-i18n": "^8.11.2",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.3",
-    "vuetify": "^2.0.0-beta.8",
+    "vuetify": "^2.6.10",
     "vuex": "^3.0.1",
     "webfont": "^9.0.0"
   },
